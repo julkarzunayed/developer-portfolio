@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+.open-sans-normal{
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* Common style */
+.secondary-bg{
+    background-color:  #FFF8F3;
+}
+.text-common{
+    color:#FD6E0A ;
+}
+.text-center{
+    text-align: center;
+}
+.dark-2{
+    color: #474747;
+}
+.dark-3{
+    color: #757575;
+}
+.section-title{
+    font-size: 35px;  
+    font-weight: bold;
+    color: #181818 ;
+}
+
+.section-description{
+    font-size: 18px;
+    color:#757575 ;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    padding: 20px 37px;
+    /* box-sizing: 150px 64px; */
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    /* border-color: none; */
+    border: none;
+}
+/* Main Styls */
+main{
+    margin: 0 auto;
+    width: 1140px;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+/* Header styels */
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right ;
+}
+
+/* Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li{
+    list-style: none;
+    /* text-decoration: none; */
+    margin-left: 51px;
+}
+
+.nav-title{ 
+    font-weight: 800;
+    font-size: 45px;
+}
+
+/* Banner Styels */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 38px 0 230px;
+}
+.banner-content{
+    max-width:  585px;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 700;
+} 
+
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-description{
+    font-size: 18px;
+}
+.banner-profil-pic{
+    width: 580px;
+}
+
+/* Abbout styls */
+
+.about{
+    border-radius:10px;
+    padding: 131px 157px;
+    text-align: center;
+    
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.skill{
+    width: 1140px;
+}
+/* skill Dection */
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill-box{
+    padding: 30px 33px;
+    box-shadow: 0 6px 50px 0 rgba(00, 00, 00, 6%);
+    border-radius: 5px;
+}
+
+/* Resumi */
+.resume-container{
+    display: flex;
+    gap: 71px;
+}
+.resume-column-titel{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+.experience-titel{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+}
+.experience-subtitle{
+    font-size: 20px;
+    font-weight:700;
+    color: #757575;
+}
+.experience-description{
+    font-size: 16px;
+    color: #757575;
+}
+/* Footer Style */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px;
+}
+.footer-column{
+    width: 50%;
+}
