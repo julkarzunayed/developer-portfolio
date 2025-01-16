@@ -264,7 +264,7 @@ footer button{
     
     .skill-box, .resume-column{
         /* border: .5vw solid rgb(186, 250, 114); */
-        width:;
+        width:auto;
         padding: 10px;
         text-align: justify;
     }
